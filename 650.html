@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>650寝室</title>
+    <style> 
+ body{
+            margin: 0px;
+            /*为了让body的子标签img,
+            相对于body的左上角进行定位*/
+            position: relative;
+        }
+        img:nth-child(1){
+            position: absolute;
+            top: 100px;
+            left: 200px;
+
+            /*过渡*/
+            transition: transform 1.5s;  
+            height: 100px;
+            width: 100px;
+        }
+        img:nth-child(2){
+            position: absolute;
+            top: 100px;
+            right: 200px;
+
+            transition: transform 1.5s;
+            height: 100px;
+            width: 100px;
+        }      
+          img:nth-child(3){
+            position: absolute;
+            top: 100px;
+            right: 600px;
+
+            transition: transform 1s;
+            height: 100px;
+            width: 100px;
+        }      
+        img:hover{
+            /*旋转30度*/
+            transform: rotate(360deg) scale(1.5);
+            z-index: 100
+        }
+
+    </style>
+
+</head>
+<body>
+    <img src="QQ图片20170207201347.jpg" alt="">
+    <img src="QQ图片20170207201513.jpg" alt="">
+    <img src="2.jpg" alt="">
+</body>
+</html>
