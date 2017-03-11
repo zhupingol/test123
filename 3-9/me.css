@@ -1,0 +1,88 @@
+.header{
+    background-color: lavender;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.header span:nth-child(3){
+    margin-right: 10px;
+}
+.content{
+    height: 80px;
+    background-color: orange;
+    text-align: center;
+    padding-top: 30px;
+}
+.content h4{
+   margin-top: 0px;
+   color: white;
+}
+.xuanxiang{
+    display: flex;
+    justify-content: space-around;
+    /*line-height: 50px;*/
+    background-color: lavender;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+}
+figure{
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+figure:nth-child(2){
+    border-bottom: 1px solid green;
+}
+figure:nth-child(3){
+    border-bottom: 1px solid orange;
+}
+/*我的优惠*/
+.youhui{
+    background-color: lavender;
+    line-height: 40px;
+    margin-bottom: 2px;
+}
+.youhui span{
+    margin-left: 10px;
+}
+/*F码通道*/
+.f{
+    background-color: lavender;
+     line-height: 40px;
+     
+}
+.f span{
+    margin-left: 10px;
+}
+/*我的服务*/
+.fuwu{
+    background-color: lavender;
+     line-height: 40px;
+     margin: 10px 0px;
+}
+.fuwu span{
+    margin-left: 10px;
+}
+/*设置*/
+.shezhi{
+    background-color: lavender;
+     line-height: 40px;
+}
+.shezhi span{
+    margin-left: 10px;
+}
+/*底部导航条*/
+.mynav span h6{
+    margin:0px;
+}
+.mynav span{
+    line-height: 30px;
+}
+.mynav a{
+    color: gray;
+}

@@ -1,0 +1,171 @@
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0px;
+}
+.mynav-1{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    opacity: 0.8;
+    /*filter: blur(1px);*/
+    background-color: lavender;
+}
+.mynav-1{
+ width: 300px;
+margin: 0px auto;
+}
+.mynav-1>input{
+    background-image: url(小米作业/image/sousuo.png);
+    background-repeat: no-repeat;
+    border: 1px solid lightgray;
+}
+
+/*滚动图片部分*/
+#carousel-example-generic{
+    height: 200px;
+}
+#carousel-example-generic ol{
+    text-align: right;
+    margin-bottom: 0px;
+}
+.carousel-inner .item img{
+    height:200px; 
+}
+/*商城早报*/
+.news{
+    height: 50px;
+    line-height: 50px;
+}
+.news span:nth-child(1){
+    color:orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+.news span:nth-child(2){
+    margin-left: 20px;
+}
+/*专场*/
+.zhuanchang{
+    height: 300px;
+    /*width:100%;*/
+    /*height: 100%;*/
+    overflow: hidden;
+}
+.zhuanchang .left{
+    border: 1px solid lightgreen;
+    float: left;
+    width:45%;
+}
+.zhuanchang .left img{
+    height: 300px;
+    width: 80%;
+}
+.zhuanchang .right{
+    width:50%;
+    float: right;
+    border: 1px solid lightgreen;
+}
+.zhuanchang .right .right-top img{
+    height: 150px;
+    /*width: 80%;*/
+    border-bottom: 1px solid lightgreen;
+}
+.zhuanchang .right .right-bottom img{
+    height: 150px;
+    /*width: 80%;*/
+}
+/*全息电视现货购买*/
+.dianshi img{
+    width: 100%;
+    height: 200px;
+}
+/*明星*/
+.shouji-shouhuan{
+    overflow: hidden;
+}
+.shouji-shouhuan .left{
+    float: left;
+    width: 50%;
+}
+.shouji-shouhuan .right{
+    float: right;
+    width: 50%;
+}
+.shouji-shouhuan span{
+    color: gray;
+    font-size: 10px;
+}
+.shouji-shouhuan p{
+    color: orange;
+    font-size: 20px;
+}
+/*新品上线*/
+.xinpin .wifi-dianyuan{
+    overflow: hidden;
+}
+.xinpin .wifi-dianyuan .left{
+    width: 50%;
+    float: left;
+}
+.xinpin .wifi-dianyuan .right{
+    width: 50%;
+    float: right;
+}
+.xinpin .wifi-dianyuan span{
+    color: gray;
+    font-size: 10px;
+}
+.xinpin .wifi-dianyuan p{
+    color: orange;
+    font-size: 20px;
+}
+/*米家智能*/
+.zhinengji-jinghuaqi{
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+}
+.zhinengji-jinghuaqi .left{
+    width: 50%;
+    float: left;
+}
+.zhinengji-jinghuaqi .right{
+    width: 50%;
+    float: right;
+}
+.zhinengji-jinghuaqi h4{
+    margin-top: 0px;
+}
+.zhinengji-jinghuaqi img{
+    height: 200px;
+}
+/*分类专场*/
+.fenlei{
+    overflow: hidden;
+}
+.fenlei .left{
+    float: left;
+    width: 50%;
+}
+.fenlei .right{
+    float: right;
+    width: 50%;
+}
+/*底部导航条*/
+.mynav{
+    width: 100%;
+}
+.mynav span h6{
+    margin:0px;
+}
+.mynav span{
+    line-height: 30px;
+}
+.mynav a{
+    color: gray;
+}
+/*媒体查询*/

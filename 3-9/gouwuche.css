@@ -1,0 +1,72 @@
+.header{
+    background-color: lavender;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.header span:nth-child(3){
+    margin-right: 10px;
+}
+/*登录*/
+.denglu{
+    line-height: 50px;
+    overflow: hidden;
+}
+.denglu span:nth-child(1){
+    margin-left: 20px;
+}
+.denglu span:nth-child(2){
+    float: right;
+    margin-right: 20px;
+}
+/*逛逛*/
+.guangguang{
+    background-color: lavender;
+    line-height: 50px;
+    text-align: center;
+}
+.guangguang button{
+    line-height: 30px;
+    background-color: lavender;
+    border: 1px solid lightgrey;
+}
+/*为你推荐*/
+.tuijian{
+    line-height: 40px;
+    margin-left: 20px;
+}
+.content{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.content .left{
+    float: left;
+    width: 50%;
+}
+.content .right{
+    float: right;
+    width: 50%;
+}
+.content h4{
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+.content span{
+    color: orange;
+}
+/*底部导航条*/
+.mynav span h6{
+    margin:0px;
+}
+.mynav span{
+    line-height: 30px;
+}
+.mynav a{
+    color: gray;
+}
